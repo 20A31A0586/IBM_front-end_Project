@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/73fb2b533e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/sample.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#My-Internships">Internships</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-circle-xmark"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science student</p>
+                 <h1>Hi,I'm <span>Sneha Chandrika</span><br> from Pragati<br>Engineering College</h1>
+            </div>
+        </div>
+    </div>
+<!--------------about---------->
+<div id="About">
+    <div class="container"></div>
+    <div class="row">
+        <div class="about-col-1">
+            <img src="/Hey2.jpg">        
+        </div>
+        <div class="about-col-2">
+            <h1 class="subtitle">
+                About me
+            </h1>
+            <p class="paragraph">
+                A Student with specified skills who is looking to get placed in a<br> 
+                reputable oraganization to learn new things<br>
+                and to improve my knowledge
+            </p>
+            <div class="tabtitles">
+                <p class="links active" onclick="opentab('skills')">Skills</p>
+                <p class="links" onclick="opentab('projects')">Projects</p>
+                <p class="links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="contents active-tab" id="skills">
+                <ul>
+                    <li><span>HTML,CSS,JavaScript</span><br>Web Devolopment</li>
+                    <li><span>Languages</span><br>C,Java,Python</li>
+                    <li><span>other skills</span><br>Data Structures with Java,DBMS,Os</li>
+                </ul>
+            </div>
+            <div class="contents" id="projects">
+                <ul>
+                    <li><span>designed a web page on Diabetes</span><br>using Html and Css</li>
+                    <li><span>Image Background Remover web app</span><br>using Html,css,JavaScript,Bootstrap 4</li>
+                    <li><span>created a website(portfolio)</span><br>Html and css</li>
+                </ul>
+            </div>
+            <div class="contents" id="education">
+                <ul>
+                    <li>Presidency e.m School(ssc)<br><span>2018</span></li>
+                    <li>Adhitya junior college(Intermediate)<br><span>2018-2020</span></li>
+                    <li>Pragati Engineering College(B Tech)<br><span>2020-present</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------services------->
+<div id="My-Internships">
+    <div class="container">
+        <h1 class="sub-title2">My Internships</h1>
+        <div class="internships-list">
+            <div>
+                <h2>RPA virtual internship by blue prism</h2>
+                <p>AICTE</p>
+            </div>
+            <div>
+                <h2>Salesforce devoloper virtual internship</h2>
+                <p>AICTE</p>
+            </div>
+            <div>
+                <h2>Process mining virtual internship</h2>
+                <p>CELONIS</p>
+            </div>
+            <div>
+                <h2>AI-ML virtual internship</h2>
+                <p>AICTE</p>
+            </div>
+            <div>
+                <h2>Cybersecurity Essentials Course</h2>
+                <p>CISCO</p>
+            </div>
+            <div>
+                <h2>Technology virtual experience program</h2>
+                <p>DELOITTE</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------certifications----------->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title3">My Certifications</h1>
+        <div class="certificate-images">
+            <div class="work">
+                <img src="/certificate1.jpg">           
+            </div>
+            <div class="work">
+                <img src="/certifcate2.jpg">           
+            </div>
+        </div>
+        <div class="certficates-list">
+            <div>
+                <h2><br>•DataBase Management System</h2>
+                <p>NPTEL</p>
+            </div>
+            <div>
+                <h2><br>•Data Analytics with Python</h2>
+                <p>NPTEL</p>
+            </div>
+            <div>
+                <h2><br>•Oraganised an event "Animate Arcadia" in strides 2K22</h2>
+                <p>Pragati Engineering College</p>
+            </div>
+            <div>
+                <h2><br>•Microsoft Power Platform Fundamentals</h2>
+                <p>Global Certifications,Microsoft</p>
+            </div>
+            <div>
+                <h2><br>•Microsft Azure Fundamentals</h2>
+                <p>Global Certifications,Microsoft</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------contact----------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title4">contact me</h1>
+                <p>snehachandrika51@gmail.com</p>
+                <p><br>+91 9632587417</p>
+                <div class="socialmedia">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <a href="/Myresume.pdf" download class="btn btn2">Download Cv</a>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your Name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @portfolio made by Sneha</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var links=document.getElementsByClassName("links");
+    var contents=document.getElementsByClassName("contents");
+    function opentab(tabname){
+        for(tablink of links){
+            tablink.classList.remove("active");
+        }
+        for(tabcontent of contents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzbVve6my8Qe1HtR15j-wsmdvZ3PJpsbAr7FbyQJbclKtfnUq9z6NxfEy9hRQB3r7zxQQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>  
+</body>
+</html>
